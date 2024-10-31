@@ -23,4 +23,4 @@ jobs:
         uses: creyD/prettier_action@v4.3
         with:
           prettier_options: '--config ./.prettierrc --ignore-path .gitignore -w "packages/**/*.{js,ts,json,css,tsx,jsx,md}" "playgrounds/**/*.{js,ts,json,css,tsx,jsx,md}"'
-          commit_message: "style: format with prettier"
+          commit_message: "style: auto-format with action"
