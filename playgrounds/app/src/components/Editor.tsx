@@ -372,8 +372,7 @@ export default function Editor(props: EditorProps) {
                     <DropdownMenuSub>
                       <DropdownMenuSubTrigger>Background</DropdownMenuSubTrigger>
                       <DropdownMenuPortal>
-                        <DropdownMenuSubContent class='w-[200px]'>
-
+                        <DropdownMenuSubContent class="w-[200px]">
                           <DropdownMenuSub>
                             <DropdownMenuSubTrigger>Type</DropdownMenuSubTrigger>
                             <DropdownMenuPortal>
@@ -1062,5 +1061,5 @@ async function createAnimationFrame(
   })
   await Promise.all(elementPromises)
 
-      return ctx.getImageData(0, 0, canvas.width, canvas.height)
-   }
+  return ctx.getImageData(0, 0, canvas.width, canvas.height)
+}
