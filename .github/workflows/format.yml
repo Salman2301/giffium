@@ -23,7 +23,5 @@ jobs:
         uses: creyD/prettier_action@v4.3
         with:
           only_changed: True
-          # Specify file patterns explicitly
-          prettier_options: --config ./.prettierrc  --ignore-path .gitignore -w \"packages/**/*.{js,ts,json,css,tsx,jsx,md}\" \"playgrounds/**/*.{js,ts,json,css,tsx,jsx,md}\""
-          # Add commit message
+          prettier_options: '--config ./.prettierrc --ignore-path .gitignore -w "packages/**/*.{js,ts,json,css,tsx,jsx,md}" "playgrounds/**/*.{js,ts,json,css,tsx,jsx,md}"'
           commit_message: "style: format with prettier"
