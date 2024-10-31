@@ -1062,5 +1062,5 @@ async function createAnimationFrame(
   })
   await Promise.all(elementPromises)
 
-  return ctx.getImageData(0, 0, canvas.width, canvas.height)
-}
+      return ctx.getImageData(0, 0, canvas.width, canvas.height)
+   }
