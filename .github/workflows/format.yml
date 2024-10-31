@@ -2,6 +2,8 @@ name: Format
 
 on:
   push:
+    branches: [main, fix/format-test]
+  pull_request:
     branches: [main]
 
 jobs:
